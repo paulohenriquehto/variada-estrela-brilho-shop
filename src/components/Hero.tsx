@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Star } from "lucide-react";
-import dashboardMockup from "@/assets/dashboard-mockup.png";
 
 const Hero = () => {
   return (
@@ -65,7 +64,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 transform rotate-2 hover:rotate-0 transition-smooth duration-700">
               <img 
-                src={dashboardMockup} 
+                src="https://spdrop.com.br/dashboard.png" 
                 alt="Dashboard SP Drop" 
                 className="w-full rounded-xl shadow-2xl border border-white/20"
               />
