@@ -9,6 +9,7 @@ import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import PurchaseNotification from "@/components/PurchaseNotification";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
       <Footer />
       <ScrollToTop />
       <PurchaseNotification />
+      <WhatsAppFloat />
     </div>
   );
 };
