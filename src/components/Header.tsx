@@ -10,12 +10,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <a href="#inicio" className="flex items-center gap-2" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
               <Star className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold text-primary">Estrela Variedades</span>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
