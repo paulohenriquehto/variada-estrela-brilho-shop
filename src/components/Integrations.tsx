@@ -100,12 +100,6 @@ const Integrations = () => {
           </div>
         </Card>
 
-        {/* Additional Info */}
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground">
-            E muito mais integrações sendo adicionadas constantemente para expandir seu alcance de vendas.
-          </p>
-        </div>
       </div>
 
       <style jsx>{`
