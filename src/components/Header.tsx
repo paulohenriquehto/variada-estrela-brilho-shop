@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Star, Menu } from "lucide-react";
+import { Box, Menu } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-2" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Star className="w-5 h-5 text-white" />
+              <Box className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold text-primary">SP Drop</span>
           </a>
