@@ -13,7 +13,7 @@ const Testimonials = () => {
     {
       name: "Juliana Costa",
       role: "Lojista Online",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&h=100&fit=crop&crop=face",
       content: "Finalmente encontrei uma solução completa para meu e-commerce. Os fornecedores são confiáveis e a integração com os marketplaces é perfeita.",
       rating: 5
     },

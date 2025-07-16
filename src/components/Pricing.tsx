@@ -5,57 +5,53 @@ import { Check, Star, Crown, Zap } from "lucide-react";
 const Pricing = () => {
   const plans = [
     {
-      name: "Iniciante",
-      price: "Grátis",
-      period: "",
-      description: "Perfeito para começar seu e-commerce",
+      name: "Básico",
+      price: "R$ 99",
+      period: "/Mensal",
+      description: "Perfeito para quem está começando",
       icon: Star,
       features: [
-        "Até 50 produtos",
-        "2 fornecedores parceiros",
-        "Suporte por email",
-        "Dashboard básico",
-        "Integração com 1 marketplace"
+        "Produtos ilimitados",
+        "Integração com todos os marketplaces",
+        "Automação completa",
+        "Suporte prioritário 24/7",
+        "Gerenciador de anúncios"
       ],
-      buttonText: "Começar Grátis",
+      buttonText: "Começar Agora",
       buttonVariant: "outline" as const,
       popular: false
     },
     {
-      name: "Profissional",
-      price: "R$ 97",
-      period: "/mês",
-      description: "Ideal para empreendedores sérios",
+      name: "Premium",
+      price: "R$ 499",
+      period: "/Semestral",
+      description: "Para empreendedores em crescimento",
       icon: Crown,
       features: [
         "Produtos ilimitados",
-        "Todos os fornecedores",
+        "Integração com todos os marketplaces",
+        "Automação completa",
         "Suporte prioritário 24/7",
-        "Dashboard avançado",
-        "Integração com todos marketplaces",
-        "Análises de mercado",
-        "Automação de pedidos"
+        "Gerenciador de anúncios"
       ],
       buttonText: "Começar Agora",
       buttonVariant: "hero" as const,
       popular: true
     },
     {
-      name: "Enterprise",
-      price: "R$ 297",
-      period: "/mês",
-      description: "Para grandes operações",
+      name: "Avançado",
+      price: "R$ 999",
+      period: "/Anual",
+      description: "Para operações em larga escala",
       icon: Zap,
       features: [
-        "Tudo do Profissional",
-        "Gerente de conta dedicado",
-        "Integração personalizada",
-        "Treinamento individual",
-        "API exclusiva",
-        "Relatórios customizados",
-        "Prioridade máxima"
+        "Produtos ilimitados",
+        "Integração com todos os marketplaces",
+        "Automação completa",
+        "Suporte prioritário 24/7",
+        "Gerenciador de anúncios"
       ],
-      buttonText: "Falar com Vendas",
+      buttonText: "Começar Agora",
       buttonVariant: "gradient" as const,
       popular: false
     }
