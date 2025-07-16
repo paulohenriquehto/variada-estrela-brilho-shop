@@ -21,8 +21,8 @@ const Footer = () => {
               Revolucionando o e-commerce brasileiro com soluções inovadoras e fornecedores de confiança.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="https://www.instagram.com/estreladanuzio/?igsh=MW56ajNzOTgwcTZ2cQ%3D%3D#">
-                <Instagram className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-secondary transition-smooth">
+                <Instagram className="w-5 h-5" https://www.instagram.com/estreladanuzio/?igsh=MW56ajNzOTgwcTZ2cQ%3D%3D#/>
               </a>
               <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-secondary transition-smooth">
                 <Youtube className="w-5 h-5" />
