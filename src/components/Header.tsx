@@ -19,7 +19,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#inicio" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <a href="#" className="text-foreground hover:text-primary transition-smooth font-medium">
               Início
             </a>
             <a href="#beneficios" className="text-foreground hover:text-primary transition-smooth font-medium">
@@ -58,7 +58,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-border pt-4">
             <div className="flex flex-col gap-4">
-              <a href="#inicio" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <a href="#" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Início
               </a>
               <a href="#beneficios" className="text-foreground hover:text-primary transition-smooth font-medium">
