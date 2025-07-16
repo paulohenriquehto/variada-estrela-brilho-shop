@@ -4,43 +4,43 @@ const Integrations = () => {
   const integrations = [
     {
       name: "Mercado Livre",
-      logo: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=80&fit=crop&crop=center"
+      logo: "https://http2.mlstatic.com/D_NQ_NP_790091-MLA74840999430_032024-O.webp"
     },
     {
       name: "Amazon",
-      logo: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=120&h=80&fit=crop&crop=center"
+      logo: "https://api.freelogodesign.org/assets/blog/img/20180911090509731amazon_logo_RGB.jpg"
     },
     {
       name: "Shopee",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=80&fit=crop&crop=center"
+      logo: "https://www.ideianoar.com.br/wp-content/uploads/2022/03/shopee-marketplace-1-1.png"
     },
     {
       name: "Magalu",
-      logo: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=120&h=80&fit=crop&crop=center"
+      logo: "https://logodownload.org/wp-content/uploads/2014/06/magalu-logo-0.png"
     },
     {
       name: "Americanas",
-      logo: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=120&h=80&fit=crop&crop=center"
+      logo: "https://images.seeklogo.com/logo-png/61/2/americanas-sa-logo-png_seeklogo-611138.png"
     },
     {
       name: "Shopify",
-      logo: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=80&fit=crop&crop=center"
+      logo: "https://cdn.worldvectorlogo.com/logos/shopify.svg"
     },
     {
       name: "WooCommerce",
-      logo: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=120&h=80&fit=crop&crop=center"
+      logo: "https://aescoladesites.com.br/wp-content/uploads/2021/06/WooCommerce.jpg"
     },
     {
       name: "Bling",
-      logo: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=120&h=80&fit=crop&crop=center"
+      logo: "https://vancecontabil.com.br/wp-content/uploads/2021/06/logo-bling-png-1.png"
     },
     {
       name: "Melhor Envio",
-      logo: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=120&h=80&fit=crop&crop=center"
+      logo: "https://logodownload.org/wp-content/uploads/2020/12/melhor-envio-logo-0.png"
     },
     {
       name: "Olist",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=80&fit=crop&crop=center"
+      logo: "https://d3hw41hpah8tvx.cloudfront.net/images/logo_ecossistema_66f532e37b.svg"
     }
   ];
 
@@ -75,11 +75,16 @@ const Integrations = () => {
                   key={index} 
                   className="flex-shrink-0 w-48 mx-4 flex flex-col items-center justify-center p-6 rounded-lg hover:bg-muted/50 transition-smooth group"
                 >
-                  <div className="w-28 h-16 bg-white rounded-lg flex items-center justify-center mb-3 group-hover:scale-105 transition-smooth shadow-sm border border-border/20">
+                  <div className="w-32 h-20 bg-white rounded-lg flex items-center justify-center mb-3 group-hover:scale-105 transition-smooth shadow-sm border border-border/20 p-2">
                     <img 
                       src={integration.logo} 
                       alt={integration.name}
                       className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-smooth"
+                      style={{ 
+                        width: '100%', 
+                        height: '100%', 
+                        objectFit: 'contain' 
+                      }}
                     />
                   </div>
                   <span className="text-sm font-medium text-muted-foreground group-hover:text-foreground transition-smooth text-center">
