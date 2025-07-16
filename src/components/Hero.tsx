@@ -66,7 +66,7 @@ const Hero = () => {
             <div className="relative z-10 transform rotate-2 hover:rotate-0 transition-smooth duration-700">
               <img 
                 src={dashboardMockup} 
-                alt="Dashboard Estrela Variedades" 
+                alt="Dashboard SP Drop" 
                 className="w-full rounded-xl shadow-2xl border border-white/20"
               />
             </div>

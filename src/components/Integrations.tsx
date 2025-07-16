@@ -61,7 +61,7 @@ const Integrations = () => {
           </h2>
           <div className="w-16 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A Estrela Variedades integra com os principais marketplaces e plataformas de e-commerce do Brasil para maximizar suas vendas.
+            A SP Drop integra com os principais marketplaces e plataformas de e-commerce do Brasil para maximizar suas vendas.
           </p>
         </div>
 

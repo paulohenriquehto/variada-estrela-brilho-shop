@@ -54,7 +54,7 @@ const Features = () => {
           </div>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
             Por que escolher a 
-            <span className="text-primary"> Estrela Variedades</span>?
+            <span className="text-primary"> SP Drop</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Nossa plataforma foi desenvolvida para atender todas as suas necessidades de e-commerce, 

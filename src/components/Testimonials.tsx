@@ -8,6 +8,7 @@ const Testimonials = () => {
       role: "Empreendedor Digital",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
       content: "Com a Estrela Variedades consegui triplicar minha receita em apenas 3 meses. A plataforma é incrivelmente intuitiva e o suporte é excepcional.",
+      content: "Com a SP Drop consegui triplicar minha receita em apenas 3 meses. A plataforma é incrivelmente intuitiva e o suporte é excepcional.",
       rating: 5
     },
     {
@@ -39,7 +40,7 @@ const Testimonials = () => {
             <span className="text-secondary"> estão dizendo</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Mais de 1.200 empreendedores já transformaram seus negócios com a Estrela Variedades. 
+            Mais de 1.200 empreendedores já transformaram seus negócios com a SP Drop. 
             Veja o que eles têm a dizer sobre nossa plataforma.
           </p>
         </div>

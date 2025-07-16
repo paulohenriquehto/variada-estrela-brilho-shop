@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-secondary" />
-                <span className="text-white/80">contato@estrelavariedades.com.br</span>
+                <span className="text-white/80">contato@spdrop.com.br</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-secondary" />
@@ -80,7 +80,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/60 text-center md:text-left">
-            © 2024 Estrela Variedades. Todos os direitos reservados.
+            © 2024 SP Drop. Todos os direitos reservados.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-white/60 hover:text-secondary transition-smooth">
