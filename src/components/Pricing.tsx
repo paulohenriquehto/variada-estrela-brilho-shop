@@ -24,8 +24,8 @@ const Pricing = () => {
     },
     {
       name: "Premium",
-      price: "R$ 499",
-      period: "/Semestral",
+      price: "R$ 999",
+      period: "/Anual",
       description: "Para empreendedores em crescimento",
       icon: Crown,
       features: [
@@ -36,14 +36,14 @@ const Pricing = () => {
         "Gerenciador de anúncios"
       ],
       buttonText: "Começar Agora",
-      buttonLink: "https://pay.kiwify.com.br/I1AJu0G?afid=geNR7H2a",
+      buttonLink: "https://pay.kiwify.com.br/GxZkrV9?afid=geNR7H2a",
       buttonVariant: "hero" as const,
       popular: true
     },
     {
       name: "Avançado",
-      price: "R$ 999",
-      period: "/Anual",
+      price: "R$ 499",
+      period: "/Semestral",
       description: "Para operações em larga escala",
       icon: Zap,
       features: [
@@ -54,7 +54,7 @@ const Pricing = () => {
         "Gerenciador de anúncios"
       ],
       buttonText: "Começar Agora",
-      buttonLink: "https://pay.kiwify.com.br/GxZkrV9?afid=geNR7H2a",
+      buttonLink: "https://pay.kiwify.com.br/I1AJu0G?afid=geNR7H2a",
       buttonVariant: "gradient" as const,
       popular: false
     }

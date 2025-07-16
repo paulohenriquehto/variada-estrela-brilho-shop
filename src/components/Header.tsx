@@ -38,8 +38,10 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="hero" className="rounded-lg">
-              Comece Agora
+            <Button variant="hero" className="rounded-lg" asChild>
+              <a href="#planos">
+                Comece Agora
+              </a>
             </Button>
           </div>
 
@@ -71,8 +73,10 @@ const Header = () => {
               <a href="#depoimentos" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Depoimentos
               </a>
-              <Button variant="hero" className="rounded-lg mt-2">
-                Comece Agora
+              <Button variant="hero" className="rounded-lg mt-2" asChild>
+                <a href="#planos">
+                  Comece Agora
+                </a>
               </Button>
             </div>
           </nav>
