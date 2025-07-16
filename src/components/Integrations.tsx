@@ -4,86 +4,94 @@ const Integrations = () => {
   const integrations = [
     {
       name: "Mercado Livre",
-      logo: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Amazon",
-      logo: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Shopee",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Magalu",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Americanas",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Shopify",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "WooCommerce",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Bling",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Melhor Envio",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=120&h=80&fit=crop&crop=center"
     },
     {
       name: "Olist",
-      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=60&fit=crop&crop=center"
+      logo: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=120&h=80&fit=crop&crop=center"
     }
   ];
+
+  // Duplicar o array para criar o efeito infinito
+  const duplicatedIntegrations = [...integrations, ...integrations];
 
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-red-100 rounded-full px-4 py-2 mb-6">
-            <span className="text-red-600 text-sm font-medium">CONEXÕES PODEROSAS</span>
+          <div className="inline-flex items-center gap-2 bg-primary/10 rounded-full px-4 py-2 mb-6">
+            <span className="text-primary text-sm font-medium">CONEXÕES PODEROSAS</span>
           </div>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
             Integrações 
-            <span className="text-red-600"> completas</span>
+            <span className="text-primary"> completas</span>
           </h2>
-          <div className="w-16 h-1 bg-red-600 mx-auto mb-6"></div>
+          <div className="w-16 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A SP DROP integra com os principais marketplaces e plataformas de e-commerce do Brasil para maximizar suas vendas.
+            A Estrela Variedades integra com os principais marketplaces e plataformas de e-commerce do Brasil para maximizar suas vendas.
           </p>
         </div>
 
-        {/* Integrations Grid */}
-        <Card className="p-12 bg-gradient-card border-0 shadow-card">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
-            {integrations.map((integration, index) => (
-              <div 
-                key={index} 
-                className="flex items-center justify-center p-4 rounded-lg hover:bg-muted/50 transition-smooth group"
-              >
-                <div className="text-center">
-                  <div className="w-24 h-12 bg-muted rounded-lg flex items-center justify-center mb-2 group-hover:scale-105 transition-smooth">
+        {/* Carousel Container */}
+        <Card className="p-8 bg-gradient-card border-0 shadow-card overflow-hidden">
+          <div className="relative">
+            {/* Carousel Track */}
+            <div className="flex animate-scroll-right">
+              {duplicatedIntegrations.map((integration, index) => (
+                <div 
+                  key={index} 
+                  className="flex-shrink-0 w-48 mx-4 flex flex-col items-center justify-center p-6 rounded-lg hover:bg-muted/50 transition-smooth group"
+                >
+                  <div className="w-28 h-16 bg-white rounded-lg flex items-center justify-center mb-3 group-hover:scale-105 transition-smooth shadow-sm border border-border/20">
                     <img 
                       src={integration.logo} 
                       alt={integration.name}
-                      className="max-w-full max-h-full object-contain opacity-70 group-hover:opacity-100 transition-smooth"
+                      className="max-w-full max-h-full object-contain opacity-80 group-hover:opacity-100 transition-smooth"
                     />
                   </div>
-                  <span className="text-sm font-medium text-muted-foreground group-hover:text-foreground transition-smooth">
+                  <span className="text-sm font-medium text-muted-foreground group-hover:text-foreground transition-smooth text-center">
                     {integration.name}
                   </span>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+            
+            {/* Gradient Overlays */}
+            <div className="absolute left-0 top-0 w-20 h-full bg-gradient-to-r from-background to-transparent pointer-events-none z-10"></div>
+            <div className="absolute right-0 top-0 w-20 h-full bg-gradient-to-l from-background to-transparent pointer-events-none z-10"></div>
           </div>
         </Card>
 
@@ -94,6 +102,25 @@ const Integrations = () => {
           </p>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes scroll-right {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+        
+        .animate-scroll-right {
+          animation: scroll-right 30s linear infinite;
+        }
+        
+        .animate-scroll-right:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </section>
   );
 };
