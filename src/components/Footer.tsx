@@ -8,9 +8,6 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 bg-secondary rounded-lg flex items-center justify-center">
-                <Star className="w-5 h-5 text-white" />
-              </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-secondary rounded-full"></div>
                 <div className="w-1 h-6 bg-white mx-1"></div>
