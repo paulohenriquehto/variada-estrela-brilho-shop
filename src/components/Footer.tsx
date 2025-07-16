@@ -11,7 +11,14 @@ const Footer = () => {
               <div className="w-8 h-8 bg-secondary rounded-lg flex items-center justify-center">
                 <Star className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">Estrela Variedades</span>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                <div className="w-1 h-6 bg-white mx-1"></div>
+                <div className="flex flex-col">
+                  <div className="w-4 h-1 bg-secondary rounded-full mb-1"></div>
+                  <div className="w-6 h-1 bg-white rounded-full"></div>
+                </div>
+              </div>
             </div>
             <p className="text-white/80 mb-6 leading-relaxed">
               Revolucionando o e-commerce brasileiro com soluções inovadoras e fornecedores de confiança.
