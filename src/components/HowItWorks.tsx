@@ -47,7 +47,7 @@ const HowItWorks = () => {
           </div>
           <h2 className="text-3xl lg:text-5xl font-bold text-foreground mb-6">
             Como funciona a 
-            <span className="text-secondary">SP Drop</span>
+            <span className="text-secondary"> SP Drop</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Em apenas 4 passos simples você estará vendendo online sem complicações, 
