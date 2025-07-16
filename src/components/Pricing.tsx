@@ -156,7 +156,7 @@ const Pricing = () => {
         {/* Additional Info */}
         <div className="text-center mt-16">
           <p className="text-muted-foreground mb-4">
-            Todos os planos incluem 7 dias de teste grátis • Cancele a qualquer momento
+            Todos os planos incluem 7 dias de teste • Cancele a qualquer momento
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
