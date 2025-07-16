@@ -31,12 +31,16 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button variant="secondary" size="lg" className="rounded-lg font-semibold transform hover:scale-105 transition-smooth">
-                Comece Agora
-                <ArrowRight className="w-5 h-5 ml-2" />
+              <Button variant="secondary" size="lg" className="rounded-lg font-semibold transform hover:scale-105 transition-smooth" asChild>
+                <a href="#planos">
+                  Comece Agora
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="rounded-lg bg-white/10 border-white/20 text-white hover:bg-white/20">
-                Como Funciona
+              <Button variant="outline" size="lg" className="rounded-lg bg-white/10 border-white/20 text-white hover:bg-white/20" asChild>
+                <a href="#como-funciona">
+                  Como Funciona
+                </a>
               </Button>
             </div>
 

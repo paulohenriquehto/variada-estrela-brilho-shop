@@ -18,6 +18,7 @@ const Pricing = () => {
         "Gerenciador de anúncios"
       ],
       buttonText: "Começar Agora",
+      buttonLink: "https://pay.kiwify.com.br/zn8VUqq?afid=geNR7H2a",
       buttonVariant: "outline" as const,
       popular: false
     },
@@ -35,6 +36,7 @@ const Pricing = () => {
         "Gerenciador de anúncios"
       ],
       buttonText: "Começar Agora",
+      buttonLink: "https://pay.kiwify.com.br/I1AJu0G?afid=geNR7H2a",
       buttonVariant: "hero" as const,
       popular: true
     },
@@ -52,6 +54,7 @@ const Pricing = () => {
         "Gerenciador de anúncios"
       ],
       buttonText: "Começar Agora",
+      buttonLink: "https://pay.kiwify.com.br/GxZkrV9?afid=geNR7H2a",
       buttonVariant: "gradient" as const,
       popular: false
     }
@@ -140,8 +143,11 @@ const Pricing = () => {
                 variant={plan.buttonVariant} 
                 className="w-full rounded-lg" 
                 size="lg"
+                asChild
               >
-                {plan.buttonText}
+                <a href={plan.buttonLink} target="_blank" rel="noopener noreferrer">
+                  {plan.buttonText}
+                </a>
               </Button>
             </Card>
           ))}

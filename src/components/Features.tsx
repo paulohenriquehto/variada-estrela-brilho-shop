@@ -81,9 +81,11 @@ const Features = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Button variant="gradient" size="lg" className="rounded-lg">
-            Explorar todos os recursos
-            <ArrowRight className="w-5 h-5 ml-2" />
+          <Button variant="gradient" size="lg" className="rounded-lg" asChild>
+            <a href="#planos">
+              Explorar todos os recursos
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
           </Button>
         </div>
       </div>

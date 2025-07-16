@@ -98,9 +98,11 @@ const HowItWorks = () => {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <Button variant="hero" size="lg" className="rounded-lg">
-            Começar Agora
-            <ArrowRight className="w-5 h-5 ml-2" />
+          <Button variant="hero" size="lg" className="rounded-lg" asChild>
+            <a href="#planos">
+              Começar Agora
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
           </Button>
           <p className="text-sm text-muted-foreground mt-4">
             Sem taxas de adesão • Sem compromisso • Cancele quando quiser
